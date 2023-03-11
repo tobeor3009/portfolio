@@ -1,7 +1,14 @@
+import Head from "next/head";
+
 const Page = () => {
-  return <div>
-    Hi
-  </div>
+  return <>
+    <Head>
+      <title>Welcome</title>
+    </Head>
+    <div>
+      Hi
+    </div>
+  </>
 }
 
 export default Page;

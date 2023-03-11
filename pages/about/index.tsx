@@ -1,7 +1,14 @@
+import Head from "next/head";
+
 const Page = () => {
-  return <div>
-    나에 대해
-  </div>
+  return <>
+    <Head>
+      <title>About</title>
+    </Head>
+    <div>
+      Hi
+    </div>
+  </>
 }
 
 export default Page;
