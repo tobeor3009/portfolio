@@ -1,3 +1,5 @@
-@import "normalize.css";
-
 @import "./app";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

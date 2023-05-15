@@ -5,7 +5,7 @@ const Page = () => {
     <Head>
       <title>Welcome</title>
     </Head>
-    <div>
+    <div className="bg-red-300 px-4 py-3 text-3xl font-black transition-colors duration-150 hover:bg-blue-200">
       Hi
     </div>
   </>
